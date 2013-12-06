@@ -2,7 +2,7 @@
 #
 # Usage:
 #
-#   python::pacakge { 'virtualenv': python_version => }'2.7.3' }
+#   python::pacakge { 'virtualenv': python_version => }'2.7.5' }
 #
 define python::package(
   $python_version,

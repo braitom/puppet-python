@@ -2,9 +2,9 @@
 #
 # Usage:
 #
-#   class { 'python::global': version => '2.7.3' }
+#   class { 'python::global': version => '2.7.5' }
 #
-class python::global($version = '2.7.3') {
+class python::global($version = '2.7.5') {
   require python
   require join(['python', join(split($version, '\.'), '_')], '::')
 
